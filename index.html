@@ -5,30 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header id="header">
         <img src="" alt="" id="header-img">
         <nav id="nav-bar">  <!--Sould be always at the top-->
-            <li>Features
-                <button class="nav-link"></button>
-            </li>
-
-            <li>How It Works</li>
-            <button class="nav-link"></button>
-            <li>Pricing
-                <button class="nav-link"></button>
-            </li>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#howitworks" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
         </nav>
     </header>
-    <main> <!--At least one media query--> <!--CSS flexbox used at least once.-->
-        <form action="" id="form">
-        <label for="">
-            <input type="text" name="" id="">
-        </label>
-        <button></button> <!--Submit to "https://www.freecodecamp.com/email-submit."-->
-    </form>
-        <video src="" id="video"></video>
-    </main>
+
+        <!--At least one media query--> <!--CSS flexbox used at least once.-->
+            <div id="emailform">
+                <form action="" id="form">
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address">
+                </label>
+                <button class="btn">GET STARTED</button> <!--Submit to "https://www.freecodecamp.com/email-submit."-->
+                        </form>
+            </div>
+            <video src="" id="video"></video>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 *{
     margin:0;
     padding: 0;
@@ -73,7 +74,112 @@ header{
     font-weight: bold;
     margin: auto;
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 .btn:hover{
     background-color: rgba(240, 163, 20, 1);
+}
+.grid{
+    display: flex;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    color: darkorange;
+}
+.material-icons{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3em;
+    margin: 0 50px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200;
+}
+#howitworks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+#howitworks > iframe{
+    max-width: 560px;
+    width: 100%;
+}
+#pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 60px;
+}
+#price{
+    border: 1px solid black;
+    text-align:center;
+    line-height: 1.5em;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+#price h1{
+    background-color: rgba(128, 128, 128, 0.425);
+    padding: 5px;
+}
+#price h2{
+    padding: 5px;
+}
+#price p{
+    text-align:center
+}
+#btnprice{
+    margin: 5px;
+    padding: 5px;
+}
+#btn3{
+    width: 90px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 166, 0, 1);
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.01s ease-in 0s;
+}
+#btn3:hover{
+    transition: all 0.01s ease-in 0s;
+    background-color: rgba(185, 122, 5, 1);
+    color: black;
+}
+footer{
+    text-decoration: none;
+    margin-top: 30px;
+    background-color: rgba(128, 128, 128, 0.295);
+    padding: 20px 0;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+footer li, a{
+    list-style: none;
+    padding: 0 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+footer > span{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
 }
